@@ -41,7 +41,7 @@ data:extend({
       "double-smelting-tech-steel"
     },
     unit = {
-      count = 500, -- advanced-material-processing-2 = 250
+      count = 250, -- advanced-material-processing-2 = 250
       ingredients = {
         {"automation-science-pack", 1}, -- the old science pack 1
         {"logistic-science-pack", 1}, -- the old science pack 2
