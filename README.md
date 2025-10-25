@@ -17,6 +17,10 @@ GNU GPLv3
 
 # Changelog
 
+## 0.6.3
+- Added in patch for Steel Productivity in Space Age
+- Reduced cost of research to match current game costs
+
 ## 0.6.2
 - Add recipe localizations for Factoriopedia
 
