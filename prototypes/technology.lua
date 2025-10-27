@@ -1,3 +1,4 @@
+if settings.startup["doublefurnace-research"].value then
 data:extend({
 
   {
@@ -41,7 +42,7 @@ data:extend({
       "double-smelting-tech-steel"
     },
     unit = {
-      count = 500, -- advanced-material-processing-2 = 250
+      count = 250, -- advanced-material-processing-2 = 250
       ingredients = {
         {"automation-science-pack", 1}, -- the old science pack 1
         {"logistic-science-pack", 1}, -- the old science pack 2
@@ -54,3 +55,9 @@ data:extend({
 
 })
 
+else
+
+  table.insert(data.raw.technology["advanced-material-processing"].effects, { type = "unlock-recipe", recipe = "double-steel-furnace" })
+  table.insert(data.raw.technology["advanced-material-processing-2"].effects, { type = "unlock-recipe", recipe = "double-electric-furnace" })
+
+end

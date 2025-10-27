@@ -17,6 +17,13 @@ GNU GPLv3
 
 # Changelog
 
+## 0.6.4
+- Add in config option to allow users to choose if Furnaces unlock with the standard furnace of the same type or via a separate research. Default setting is separate research.
+
+## 0.6.3
+- Added in patch for Steel Productivity in Space Age
+- Reduced cost of research to match current game costs
+
 ## 0.6.2
 - Add recipe localizations for Factoriopedia
 
