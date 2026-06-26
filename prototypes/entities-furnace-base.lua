@@ -1,8 +1,8 @@
 data:extend({
 
-
-
-
+  -------------------
+  -- STEEL FURNACE --
+  -------------------
   {
     type = "furnace",
     name = "steel-furnace",
@@ -174,9 +174,9 @@ data:extend({
     }
   },
 
-
-
-
+  ----------------------
+  -- ELECTRIC FURNACE --
+  ----------------------
   {
     type = "furnace",
     name = "electric-furnace",
@@ -347,7 +347,4 @@ data:extend({
     }
   },
 
-
-
 })
-
